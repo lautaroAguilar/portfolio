@@ -1,0 +1,63 @@
+.About {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #070707;
+}
+
+.info {
+  width: 750px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info__headBear img {
+  width: 220px;
+}
+
+.info__texts > p {
+  color: #d1d1d1;
+  width: 350px;
+  letter-spacing: 2px;
+  line-height: 110%;
+  margin: 20px 0;
+}
+
+.someTech {
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.someTech__title > h3 {
+  color: #ffffff;
+  font-family: "Synkopy";
+  font-size: 32px;
+  letter-spacing: -1px;
+  line-height: 110%;
+  width: 450px;
+  text-align: center;
+}
+
+.someTech__logos {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+}
+
+.someTech__logos {
+  width: 550px;
+}
+
+.someTech__logos--container img {
+  border-radius: 50%;
+  width: 65px;
+  object-position: center;
+}

@@ -1,6 +1,13 @@
+@font-face {
+  font-family: "CabinetGrotesk";
+  src: url("../../../../Fonts/CabinetGrotesk_Complete/Fonts/OTF/CabinetGrotesk-Medium.otf");
+
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  box-sizing: 0;
+  font-family: "CabinetGrotesk", 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
