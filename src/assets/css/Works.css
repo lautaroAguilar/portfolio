@@ -1,0 +1,31 @@
+.Works {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("../media/works.jpg");
+    background-size: cover;
+}
+
+.container{
+    padding: 0 100px;
+}
+
+.texts{
+    color: #fdfdfd;
+    width: 600px;
+}
+
+.texts h3{
+    font-family: "synkopy";
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.texts p{
+    font-family: "CabinetGrotesk";
+    letter-spacing: 2px;
+
+}
+
