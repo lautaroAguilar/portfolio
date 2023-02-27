@@ -1,19 +1,20 @@
 import React from "react";
+import { Slider } from "../components/Slider";
+import slides from "../assets/media/img.json";
+
+import "../assets/css/Works.css"
 
 export default function Works() {
   return (
     <>
-      <div id="Works">
-        <h2> Soy, Works </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure temporibus dignissimos reprehenderit et quasi odit voluptate quibusdam at similique corrupti. Itaque voluptatibus incidunt recusandae nihil laudantium quam fugiat blanditiis et accusantium, quas hic vitae sapiente deleniti doloribus quis doloremque dolorem. Doloribus tenetur omnis accusantium reiciendis molestias quis ipsum corrupti mollitia.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure temporibus dignissimos reprehenderit et quasi odit voluptate quibusdam at similique corrupti. Itaque voluptatibus incidunt recusandae nihil laudantium quam fugiat blanditiis et accusantium, quas hic vitae sapiente deleniti doloribus quis doloremque dolorem. Doloribus tenetur omnis accusantium reiciendis molestias quis ipsum corrupti mollitia.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure temporibus dignissimos reprehenderit et quasi odit voluptate quibusdam at similique corrupti. Itaque voluptatibus incidunt recusandae nihil laudantium quam fugiat blanditiis et accusantium, quas hic vitae sapiente deleniti doloribus quis doloremque dolorem. Doloribus tenetur omnis accusantium reiciendis molestias quis ipsum corrupti mollitia.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure temporibus dignissimos reprehenderit et quasi odit voluptate quibusdam at similique corrupti. Itaque voluptatibus incidunt recusandae nihil laudantium quam fugiat blanditiis et accusantium, quas hic vitae sapiente deleniti doloribus quis doloremque dolorem. Doloribus tenetur omnis accusantium reiciendis molestias quis ipsum corrupti mollitia.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure temporibus dignissimos reprehenderit et quasi odit voluptate quibusdam at similique corrupti. Itaque voluptatibus incidunt recusandae nihil laudantium quam fugiat blanditiis et accusantium, quas hic vitae sapiente deleniti doloribus quis doloremque dolorem. Doloribus tenetur omnis accusantium reiciendis molestias quis ipsum corrupti mollitia.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure temporibus dignissimos reprehenderit et quasi odit voluptate quibusdam at similique corrupti. Itaque voluptatibus incidunt recusandae nihil laudantium quam fugiat blanditiis et accusantium, quas hic vitae sapiente deleniti doloribus quis doloremque dolorem. Doloribus tenetur omnis accusantium reiciendis molestias quis ipsum corrupti mollitia.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure temporibus dignissimos reprehenderit et quasi odit voluptate quibusdam at similique corrupti. Itaque voluptatibus incidunt recusandae nihil laudantium quam fugiat blanditiis et accusantium, quas hic vitae sapiente deleniti doloribus quis doloremque dolorem. Doloribus tenetur omnis accusantium reiciendis molestias quis ipsum corrupti mollitia.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure temporibus dignissimos reprehenderit et quasi odit voluptate quibusdam at similique corrupti. Itaque voluptatibus incidunt recusandae nihil laudantium quam fugiat blanditiis et accusantium, quas hic vitae sapiente deleniti doloribus quis doloremque dolorem. Doloribus tenetur omnis accusantium reiciendis molestias quis ipsum corrupti mollitia.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure temporibus dignissimos reprehenderit et quasi odit voluptate quibusdam at similique corrupti. Itaque voluptatibus incidunt recusandae nihil laudantium quam fugiat blanditiis et accusantium, quas hic vitae sapiente deleniti doloribus quis doloremque dolorem. Doloribus tenetur omnis accusantium reiciendis molestias quis ipsum corrupti mollitia.</p>
+      <div className="Works container">
+        <div className="texts">
+          <h3>Proyectos</h3>
+          <p>Estos son proyectos con los que fui formándome, algunos son simples prácticas y otros tienen una complejidad mayor.</p>
+        </div>
+        <div className="swiperContainer">
+          <Slider slides={slides} />
+        </div>
       </div>
     </>
   );
