@@ -9,10 +9,10 @@ img {
     height: 400px;
     width: 500px;
     border-radius: 150px;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
 }
 
 
 .swiper-scrollbar-drag{
     background-color: #8bd2e7;
-}
+}   

@@ -1,12 +1,10 @@
 import React from "react";
-import "../assets/css/Home.css"
+import "../assets/css/Home.css";
 import Header from "../components/Header";
-
 
 export default function Home() {
   /* const Home = getElementByClassName(`Home`); */
 
-  
   return (
     <>
       <div className="Home">
@@ -24,13 +22,19 @@ export default function Home() {
           </div>
           <ul className="linksRedes">
             <li>
-              <a href="https://www.behance.net/">Behance</a>
+              <a href="https://www.behance.net/" target="_blank">
+                Behance
+              </a>
             </li>
             <li>
-              <a href="https://dribbble.com/shots">Dribbble</a>
+              <a href="https://dribbble.com/shots" target="_blank">
+                Dribbble
+              </a>
             </li>
             <li>
-              <a href="https://linkedin.com/feed/">Linkedin</a>
+              <a href="https://linkedin.com/feed/" target="_blank">
+                Linkedin
+              </a>
             </li>
           </ul>
         </div>

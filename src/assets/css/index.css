@@ -4,6 +4,11 @@
 
 }
 
+.container{
+  padding: 0 100px;
+  
+}
+
 body {
   margin: 0;
   box-sizing: 0;
@@ -12,6 +17,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {

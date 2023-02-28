@@ -1,6 +1,6 @@
 .Works {
     height: 100vh;
-    width: 100%;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -8,9 +8,6 @@
     background-size: cover;
 }
 
-.container{
-    padding: 0 100px;
-}
 
 .texts{
     color: #fdfdfd;
