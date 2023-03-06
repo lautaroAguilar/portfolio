@@ -1,28 +1,38 @@
 
 [
     {
-        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmV0cmF0b3xlbnwwfDF8MHx8&auto=format&fit=crop&w=400&q=60",
-        "title": "Proyecto 1",
-        "subtitle": "Este Proyecto va de etc...",
+        "image": "images/1.jpg",
+        "title": "Portfolio",
+        "subtitle": "Mi primer proyecto en conjunto con todas las herramientas que aprendí este último año.",
         "alt": "imagen ilustrativa del proyecto",
-        "link": "https://www.facebook.com"
+        "link": "https://github.com/lautaroAguilar/portfolio"
     },
     {
-        "image": "https://images.unsplash.com/photo-1521119989659-a83eee488004?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmV0cmF0b3xlbnwwfDF8MHx8&auto=format&fit=crop&w=400&q=60",
-        "title": "Proyecto 2",
-        "subtitle": "Este Proyecto va de etc...",
-        "alt": "imagen ilustrativa del proyecto"
+        "image": "images/1.jpg",
+        "title": "Portfolio en Figma",
+        "subtitle": "Wireframes de baja y alta fidelidad, realizados en Figma, del proyecto Portfolio.",
+        "alt": "imagen ilustrativa del proyecto",
+        "link": "https://www.figma.com/proto/sStxx69csnpaoXyfnkg88h/Portfolio-LA?page-id=0%3A1&node-id=31%3A241&viewport=-1066%2C86%2C0.85&scaling=min-zoom"
     },
     {
-        "image": "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cmV0cmF0b3xlbnwwfDF8MHx8&auto=format&fit=crop&w=400&q=60",
-        "title": "Proyecto 3",
-        "subtitle": "Este Proyecto va de etc...",
-        "alt": "imagen ilustrativa del proyecto"
+        "image": "images/2.jpg",
+        "title": "Práctica con React",
+        "subtitle": "Cuando termine el curso de React en CodeaRock, hice esta página para afianzar conceptos.",
+        "alt": "imagen ilustrativa del proyecto",
+        "link": "https://github.com/lautaroAguilar/Page-with-React"
     },
     {
-        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHJldHJhdG98ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
-        "title": "Proyecto 4",
-        "subtitle": "Este Proyecto va de etc...",
-        "alt": "imagen ilustrativa del proyecto"
+        "image": "images/3.jpg",
+        "title": "Primer proyecto con JS",
+        "subtitle": "Este fue mi proyecto durante la cursada de Javascript en CoderHouse, mi primer acercamiento a JS.",
+        "alt": "imagen ilustrativa del proyecto",
+        "link": "https://github.com/lautaroAguilar/JS-CODER1"
+    },
+    {
+        "image": "images/4.jpg",
+        "title": "Primera vez con HTML y CSS",
+        "subtitle": "En el curso Desarrollo Web, de CoderHouse, este fue el proyecto que presenté.",
+        "alt": "imagen ilustrativa del proyecto",
+        "link": "https://github.com/lautaroAguilar/proyecto-coder-1"
     }
 ]

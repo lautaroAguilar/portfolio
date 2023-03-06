@@ -1,7 +1,12 @@
 @font-face {
   font-family: "CabinetGrotesk";
-  src: url("../../../../Fonts/CabinetGrotesk_Complete/Fonts/OTF/CabinetGrotesk-Medium.otf");
+  src: url("../../../../../Fonts/CabinetGrotesk_Complete/Fonts/OTF/CabinetGrotesk-Medium.otf");
 
+}
+
+.container{
+  padding: 0 100px;
+  
 }
 
 body {
@@ -12,6 +17,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {

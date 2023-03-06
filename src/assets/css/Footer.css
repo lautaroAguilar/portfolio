@@ -1,0 +1,72 @@
+.Footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 380px;
+    width: auto;
+    background-image: linear-gradient(135deg, #181818a6, #121518a2), 
+    url("../media/footer.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    height: 348px;
+    width: 98%;
+}
+
+.box__texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fdfdfd;
+}
+
+.box__texts h4{
+    font-size: 24px;    
+}
+
+.box__texts{
+    letter-spacing: 2px;
+    
+}
+
+.copy__links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy__links p{
+    color: #fdfdfd;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 130px;
+    margin-left: 1rem;
+}
+
+.links a{
+    color: white;
+    transition: all 0.3s ease-in;
+}
+
+.links a:hover{
+    color: #8bd2e7;
+    transition: all 0.3s ease-in;
+}
+
+.links svg{
+    height: 1.2rem;
+    width: 1.2rem;
+}

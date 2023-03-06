@@ -1,0 +1,86 @@
+.Contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+    width: auto;
+    background-color: #070707;
+}
+
+.info__Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+
+.infoTexts{
+    width: 350px;
+    margin-bottom: 5rem;
+}
+
+.info__Contact h3{
+    font-family: "synkopy";
+    font-size: 36px; 
+    color: #fdfdfd;
+    letter-spacing: 2px;
+}
+
+.info__Contact p {
+    font-family: "CabinetGrotesk";
+    color: #fdfdfd;
+    letter-spacing: 2px;
+
+}
+
+.infoContacto{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoContacto__container{
+    display: flex;
+    margin-bottom: 1rem;
+   
+}
+
+.infoContacto--icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    border: 1px solid white;
+}
+
+.infoContacto--icon svg{
+    height: 3rem;
+    width: 3rem;
+    color: #fdfdfd; 
+    stroke: 1px;   
+    transition: all 0.3s ease-in;
+}
+
+.infoContacto--icon svg:hover{
+    color: #8bd2e7;
+    transition: all 0.3s ease-in;
+}
+
+.infoContacto--text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 5rem;
+    width: 14rem;
+    padding: 0 1rem;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.illustration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
