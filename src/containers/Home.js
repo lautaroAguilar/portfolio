@@ -63,7 +63,7 @@ export default function Home() {
             animate={{ x: 0 }}
             transition={{ type: `spring`, duration: 6, bounce: 0.2 }}
           >
-            <h2 className="Title">Hola, soy Lautaro</h2>
+            <h2 className="Title" >Hola, soy Lautaro</h2>
             <p>
               Diseñador UX/UI y desarrollador web. Busco crear buenas
               experiencias digitales para el usuario.
