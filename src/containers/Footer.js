@@ -1,10 +1,10 @@
 import { React, useEffect } from "react";
 import {
   SlSocialBehance,
-  SlSocialDribbble,
   SlSocialGithub,
   SlSocialInstagram,
   SlSocialLinkedin,
+  SlSocialTwitter,
 } from "react-icons/sl";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -54,13 +54,13 @@ export default function Footer() {
             <p>© 2022 Lautaro Aguilar. Todos los derechos reservados. |</p>
             <div className="links">
               <div className="links__link">
-                <a href="https://www.behance.net/lautaroaguilar2" target="_blank">
-                  <SlSocialBehance />
+                <a href="https://www.linkedin.com/in/lautaro-aguilar-83a3a923b/" target="_blank">
+                  <SlSocialLinkedin />
                 </a>
               </div>
               <div className="links__link">
-                <a href="https://www.linkedin.com/in/lautaro-aguilar-83a3a923b/" target="_blank">
-                  <SlSocialLinkedin />
+                <a href="https://www.behance.net/lautaroaguilar2" target="_blank">
+                  <SlSocialBehance />
                 </a>
               </div>
               <div className="links__link">
@@ -69,8 +69,8 @@ export default function Footer() {
                 </a>
               </div>
               <div className="links__link">
-                <a href="https://dribbble.com/_lautaroaguilar" target="_blank">
-                  <SlSocialDribbble />
+                <a href="https://twitter.com/lautaroaramis" target="_blank">
+                  <SlSocialTwitter />
                 </a>
               </div>
               <div className="links__link">

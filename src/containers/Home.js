@@ -20,7 +20,7 @@ export default function Home() {
             <h3 className="Logo"> Lautaro Aguilar </h3>
             <ul>
               <li>
-                <a href="/">Home</a>
+                <a href="/">Inicio</a>
               </li>
               <li>
                 <Link
@@ -30,7 +30,7 @@ export default function Home() {
                   offset={30}
                   duration={500}
                 >
-                  About
+                  Sobre Mí
                 </Link>
               </li>
               <li>
@@ -41,7 +41,7 @@ export default function Home() {
                   offset={10}
                   duration={600}
                 >
-                  Works
+                  Proyectos
                 </Link>
               </li>
               <li>
@@ -52,7 +52,7 @@ export default function Home() {
                   offset={40}
                   duration={700}
                 >
-                  Contact
+                  Contacto
                 </Link>
               </li>
             </ul>
