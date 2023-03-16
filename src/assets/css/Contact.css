@@ -59,12 +59,12 @@
     width: 3rem;
     color: #fdfdfd; 
     stroke: 1px;   
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .infoContacto--icon svg:hover{
     color: #8bd2e7;
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .infoContacto--text{

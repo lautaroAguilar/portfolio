@@ -1,12 +1,14 @@
 :root {
   --primary: #000000;
   --secondary: #02213618;
+  --iconToggler: url(https://png.pngtree.com/element_our/20190601/ourmid/pngtree-menu-icon-image_1344445.jpg );
 }
 
 .Home {
+  height: 100vh;
+  width: 100%;
   display: flex;
   align-items: center;
-  height: 100vh;
   background-size: cover;
   background-image: linear-gradient(135deg, var(--primary), var(--secondary)),
     url("../media/homBg.jpg");
@@ -24,7 +26,6 @@
   border: 1px solid #fdfdfd;
   margin: 0 30px;
   padding: 0 70px;
-  z-index: 1;
 }
 
 /* Header */
@@ -34,30 +35,44 @@
   justify-content: space-between;
 }
 
+
+
+/* .navbar-toggler-icon{
+  color: #fdfdfd;
+  border: 1px solid #fdfdfd;
+  background-image: var(--iconToggler);
+} */
+
 .Header ul {
   display: flex;
   justify-content: space-between;
-  width: 320px;
+  width: 400px;
 }
 
 .Header ul li {
   list-style: none;
+  color: #fdfdfd;
+  transition: all 0.2s ease-in;
 }
 
 .Header ul li:hover {
   cursor: pointer;
+  color: #8bd2e7;
+  transition: all 0.2s ease-in;
 }
 
 .Header ul li a {
   color: #fdfdfd;
   text-decoration: none;
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
 }
 
-.Header ul li a:hover{
+.Header ul li a:hover {
   color: #8bd2e7;
-  transition: all 0.3s ease-in;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
 }
+
 
 .Logo {
   margin: 0;
@@ -83,7 +98,14 @@
   margin: 0 0 -30px 0;
 }
 
-.Box__texts > p {
+.copys {
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.copys > p {
   color: #fdfdfd;
   letter-spacing: 2px;
   margin: 0;
@@ -94,18 +116,18 @@
   display: inline-block;
   color: #fdfdfd;
   text-align: center;
-  width: 6rem;
+  width: 7rem;
   padding: 10px 20px;
   background-color: transparent;
   border: 1px solid #fdfdfd;
-  transition: all 0.5s ease-in;
+  transition: all 0.2s ease-in;
 }
 
- .CTA:hover {
+.CTA:hover {
   border: 1px solid #8bd2e7;
   cursor: pointer;
   color: #8bd2e7;
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 /* Links Redes */
@@ -121,10 +143,64 @@
 .linksRedes li a {
   color: #fdfdfd;
   text-decoration: none;
-  
+  transition: all 0.2s ease-in;
 }
 
 .linksRedes li a:hover {
   color: #8bd2e7;
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+@media screen and (max-width: 480px) {
+  .Home {
+    height: 100vh;
+    min-width: 320px;
+    width: 100%;
+  }
+
+  .Box {
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 180px;
+    padding: 30px;
+  }
+
+  .Header ul {
+    display: none;
+  }
+
+  .Box__texts {
+    justify-content: space-between;
+    height: 450px;
+    width: 100%;
+    min-width: 150px;
+  }
+
+  .Title {
+    font-size: 2.3rem;
+    min-width: 150px;
+  }
+
+  .copys {
+    height: 170px;
+  }
+
+  .copys p {
+    font-size: 0.8rem;
+    width: auto;
+  }
+
+  .Box__texts .CTA {
+    width: auto;
+  }
+
+  .linksRedes {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  .copys {
+    height: 220px;
+  }
 }

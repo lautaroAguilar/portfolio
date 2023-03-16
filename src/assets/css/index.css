@@ -4,9 +4,13 @@
 
 }
 
-.container{
+.Container{
   padding: 0 100px;
   
+}
+
+a{
+  text-decoration: none;
 }
 
 body {
@@ -17,6 +21,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
   
 }
 

@@ -13,8 +13,8 @@
 }
 
 .card img {
-  height: 100%;
-  width: 100%;
+  height: 450px;
+  max-width: 100%;
 }
 
 .content {
@@ -57,7 +57,7 @@
 }
 .content a {
     display: inline-block;
-    width: 4rem;
+    width: 7rem;
     padding: .5rem 1rem;
     border: 1px solid #fdfdfd;
     color: #fdfdfd;
@@ -73,5 +73,7 @@
 }
 
 .swiper-scrollbar-drag {
+  margin-left: -15px;
+  margin-top: -50px;
   background-color: #8bd2e7;
 }

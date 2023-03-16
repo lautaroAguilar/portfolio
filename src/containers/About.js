@@ -44,7 +44,7 @@ export default function About() {
 
   return (
     <>
-      <div id="About" className="About Container">
+      <div id="About" className="About ">
         <div className="visibleMotion" ref={ref}>
           <div className="info">
             <motion.div

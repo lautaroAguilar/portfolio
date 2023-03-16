@@ -7,7 +7,7 @@ import "../assets/css/Works.css"
 export default function Works() {
   return (
     <>
-      <div className="Works container">
+      <div className="Works Container">
         <div className="texts">
           <h3>Proyectos</h3>
           <p>Estos son proyectos con los que fui formándome, algunos son simples prácticas y otros tienen una complejidad mayor.</p>
