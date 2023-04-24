@@ -22,6 +22,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .info__headBear img {
@@ -61,10 +62,7 @@
   display: flex;
   width: 600px;
   justify-content: space-between;
-}
-
-.someTech__logos {
-  width: 550px;
+  flex-wrap: wrap;
 }
 
 .someTech__logos--container svg {
@@ -77,4 +75,60 @@
 .someTech__logos--container svg:hover{
   color: #8bd2e7;
   transition: all 0.3s ease-in;
+}
+
+@media screen and (max-width: 480px) {
+  .About{
+    height: 1200px;
+  }
+
+  .info{
+    
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    width: 290px;
+  }
+  .info__texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .info__texts p{
+    font-size: 0.8rem;
+    max-width: 270px;
+    
+  }
+
+  .someTech{
+    justify-content: space-around;
+    height: 500px;
+    width: 300px;
+  }
+  .someTech__title h3{
+    font-size: 1.5rem;
+    width: 270px;
+    margin: 0;
+  }
+  .someTech__title{
+    height: auto;
+    width: 270px;
+  }
+  .someTech__logos{
+    flex-direction: column;
+    width: 270px;
+    align-items: center;
+  }
+  .someTech__logos--container svg {
+    margin-top: .8rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .info{
+    justify-content: space-around;
+
+  }
 }

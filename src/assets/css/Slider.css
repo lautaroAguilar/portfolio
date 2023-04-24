@@ -1,7 +1,4 @@
-.swiper {
-  width: auto;
-  position: relative;
-}
+
 
 .card {
   position: relative;
@@ -38,42 +35,77 @@
   transition: all 0.3s ease-in;
 }
 
-.content h5{
-    font-size: 1.5rem;
-    color: #fdfdfd;
-    font-family: "CabinetGrotesk";
-    letter-spacing: 1px;
-    margin: 1rem;
+.content h5 {
+  font-size: 1.5rem;
+  color: #fdfdfd;
+  font-family: "CabinetGrotesk";
+  letter-spacing: 1px;
+  margin: 1rem;
 }
-.content p{
-    font-size: .8rem;
-    color: #fdfdfd;
-    font-family: "CabinetGrotesk";
-    letter-spacing: 2px;
-    text-align: center;
-    margin:  0 .5rem;
-
-
+.content p {
+  font-size: 0.8rem;
+  color: #fdfdfd;
+  font-family: "CabinetGrotesk";
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0 0.5rem;
 }
 .content a {
-    display: inline-block;
-    width: 7rem;
-    padding: .5rem 1rem;
-    border: 1px solid #fdfdfd;
-    color: #fdfdfd;
-    text-align: center;
-    text-decoration: none;
-    transition: all 0.3s ease-in;
+  display: inline-block;
+  width: 7rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #fdfdfd;
+  color: #fdfdfd;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
 }
 
-.content a:hover{
-    color: #8bd2e7;
-    border: 1px solid #8bd2e7;
-    transition: all 0.3s ease-in;
+.content a:hover {
+  color: #8bd2e7;
+  border: 1px solid #8bd2e7;
+  transition: all 0.3s ease-in;
 }
 
-.swiper-scrollbar-drag {
-  margin-left: -15px;
-  margin-top: -50px;
+.swiper-pagination span{
   background-color: #8bd2e7;
+}
+
+@media screen and (max-width: 480px) {
+  .swiperContainer{
+    width: 300px;
+    
+  }
+  .card {
+    height: 200px;
+    width: 300px;
+    
+  }
+  .card img {
+    height: 350px;
+    max-width: 100%;
+    
+  }
+  .content {
+    opacity: 1;
+  }
+  
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .card {
+    height: 200px;
+    width: 300px;
+    
+  }
+
+  .card img {
+    height: 350px;
+    max-width: 100%;
+    
+  }
+
+  .content {
+    opacity: 1;
+  }
 }

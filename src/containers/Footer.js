@@ -51,7 +51,7 @@ export default function Footer() {
           </motion.div>
 
           <motion.div className="copy__links" animate={animation}>
-            <p>© 2022 Lautaro Aguilar. Todos los derechos reservados. |</p>
+            <p>© 2023 Lautaro Aguilar. Todos los derechos reservados. |</p>
             <div className="links">
               <div className="links__link">
                 <a href="https://www.linkedin.com/in/lautaro-aguilar-83a3a923b/" target="_blank">

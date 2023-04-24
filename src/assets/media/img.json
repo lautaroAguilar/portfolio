@@ -1,12 +1,6 @@
 
 [
-    {
-        "image": "images/1.jpg",
-        "title": "Portfolio",
-        "subtitle": "Mi primer proyecto en conjunto con todas las herramientas que aprendí este último año.",
-        "alt": "imagen ilustrativa del proyecto",
-        "link": "https://github.com/lautaroAguilar/portfolio"
-    },
+    
     {
         "image": "images/1.jpg",
         "title": "Portfolio en Figma",
@@ -40,5 +34,12 @@
         "subtitle": "En el curso Desarrollo Web, de CoderHouse, este fue el proyecto que presenté.",
         "alt": "imagen ilustrativa del proyecto",
         "link": "https://github.com/lautaroAguilar/proyecto-coder-1"
+    },
+    {
+        "image": "images/1.jpg",
+        "title": "Portfolio",
+        "subtitle": "Mi primer proyecto en conjunto con todas las herramientas que aprendí este último año.",
+        "alt": "imagen ilustrativa del proyecto",
+        "link": "https://github.com/lautaroAguilar/portfolio"
     }
 ]
