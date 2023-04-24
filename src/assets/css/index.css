@@ -4,9 +4,12 @@
 
 }
 
-.container{
-  padding: 0 100px;
-  
+.App{
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
 }
 
 body {
@@ -17,6 +20,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  
   
 }
 

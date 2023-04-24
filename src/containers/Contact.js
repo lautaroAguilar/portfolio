@@ -49,7 +49,7 @@ export default function Contact() {
 
   return (
     <>
-      <div id="Contact" className="Contact container" ref={ref}>
+      <div id="Contact" className="Contact " ref={ref}>
         <motion.div className="info__Contact" animate={animation}>
           <motion.div className="infoTexts">
             <h3>Contacto</h3>

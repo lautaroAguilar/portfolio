@@ -1,12 +1,14 @@
 :root {
   --primary: #000000;
   --secondary: #02213618;
+  --iconToggler: url(https://png.pngtree.com/element_our/20190601/ourmid/pngtree-menu-icon-image_1344445.jpg);
 }
 
 .Home {
+  height: 100vh;
+  width: 100%;
   display: flex;
   align-items: center;
-  height: 100vh;
   background-size: cover;
   background-image: linear-gradient(135deg, var(--primary), var(--secondary)),
     url("../media/homBg.jpg");
@@ -16,6 +18,7 @@
 /* Caja */
 
 .Box {
+  position: relative;
   height: 90vh;
   width: 100%;
   display: flex;
@@ -24,39 +27,52 @@
   border: 1px solid #fdfdfd;
   margin: 0 30px;
   padding: 0 70px;
-  z-index: 1;
+  z-index: 5;
 }
 
 /* Header */
 
 .Header {
+  position: relative;
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  z-index: 20;
+}
+
+.menu-icon {
+  display: none;
 }
 
 .Header ul {
   display: flex;
   justify-content: space-between;
-  width: 320px;
+  width: 400px;
+  margin-top: 20px;
 }
 
 .Header ul li {
   list-style: none;
+  color: #fdfdfd;
+  transition: all 0.2s ease-in;
 }
 
 .Header ul li:hover {
   cursor: pointer;
+  color: #8bd2e7;
+  transition: all 0.2s ease-in;
 }
 
 .Header ul li a {
   color: #fdfdfd;
   text-decoration: none;
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
 }
 
-.Header ul li a:hover{
+.Header ul li a:hover {
   color: #8bd2e7;
-  transition: all 0.3s ease-in;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
 }
 
 .Logo {
@@ -80,32 +96,39 @@
   font-size: 48px;
   font-family: "Synkopy";
   letter-spacing: 2px;
-  margin: 0 0 -30px 0;
+  
 }
 
-.Box__texts > p {
+.copys {
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.copys > p {
   color: #fdfdfd;
   letter-spacing: 2px;
   margin: 0;
-  width: 70%;
+  width: 90%;
 }
 
 .CTA {
   display: inline-block;
   color: #fdfdfd;
   text-align: center;
-  width: 6rem;
+  width: 7rem;
   padding: 10px 20px;
   background-color: transparent;
   border: 1px solid #fdfdfd;
-  transition: all 0.5s ease-in;
+  transition: all 0.2s ease-in;
 }
 
- .CTA:hover {
+.CTA:hover {
   border: 1px solid #8bd2e7;
   cursor: pointer;
   color: #8bd2e7;
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 /* Links Redes */
@@ -121,10 +144,130 @@
 .linksRedes li a {
   color: #fdfdfd;
   text-decoration: none;
-  
+  transition: all 0.2s ease-in;
 }
 
 .linksRedes li a:hover {
   color: #8bd2e7;
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+@media (max-width: 768px) {
+  .Home {
+    height: 100vh;
+    min-width: 320px;
+    width: 100%;
+  }
+
+  .Box {
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 180px;
+    padding: 30px;
+  }
+
+  .hMb {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .menu-icon svg {
+    height: 2rem;
+    width: auto;
+    color: #fdfdfd;
+  }
+
+  .nav-elements {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #8bd2e7;
+    height: calc(55vh - 60px);
+    width: 0px;
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    z-index: 10;
+  }
+
+  .nav-elements.active {
+    width: 100%;
+  }
+
+  .nav-elements ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -12px;
+  }
+
+  .nav-elements ul li {
+    margin-right: unset;
+    margin-top: 22px;
+  }
+
+  .Box__texts {
+    justify-content: space-between;
+    height: 450px;
+    width: 100%;
+    min-width: 150px;
+  }
+
+  
+
+  .copys {
+    height: 170px;
+  }  
+}
+
+@media screen and (max-width: 480px) {
+  .Box__texts .CTA {
+    width: auto;
+  }
+
+  .linksRedes {
+    display: none;
+  }
+
+  .Header ul li:hover {
+    cursor: pointer;
+    color: #0b0b0b;
+    transition: all 0.2s ease-in;
+  }
+  .Title {
+    font-size: 2.3rem;
+    min-width: 150px;
+  }
+  .copys p {
+    font-size: 0.8rem;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  .copys {
+    height: 220px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .Box__texts{
+    justify-content: space-around;
+  }
+  .Title {
+    font-size: 2.8rem;
+    min-width: 150px;
+  }
+  .copys{
+    justify-content: space-evenly;
+  }
+  .copys > p{
+    width: 80%;
+  }
 }

@@ -38,7 +38,7 @@
 
 .copy__links{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -58,15 +58,41 @@
 
 .links a{
     color: white;
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .links a:hover{
     color: #8bd2e7;
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .links svg{
     height: 1.2rem;
     width: 1.2rem;
+}
+
+@media screen and (max-width: 480px) {
+    .box__texts h4{
+        font-size: 1.3rem;
+
+    }
+    .box__texts p{
+        font-size: .8rem;
+        
+    }
+    .copy__links{
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+    }
+    .copy__links p{
+        font-size: .8rem;
+        text-align: center;
+    }
+    .links{
+        width: 200px;
+    }
+    .links svg{
+        margin: 1rem .5rem;
+    }
 }
