@@ -24,7 +24,7 @@ export const Slider = ({ slides }) => {
       className="swiper_container"
     >
       {slides.map((slide) => (
-        <SwiperSlide key={slide.image}>
+        <SwiperSlide key={slide.key}>
           <div className="card">
             <img src={slide.image} alt={slide.alt} />
             <div className="content">
