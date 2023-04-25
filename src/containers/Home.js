@@ -88,7 +88,7 @@ export default function Home() {
                 experiencias digitales para el usuario.
               </p>
             </div>
-            <a className="CTA">Contactar</a>
+            <a className="CTA" href="mailto:eley.aramis@gmail.com?subject=Contacto desde el portfolio de Lautaro&body=Escriba su mensaje aquí" target="_blank">Contactar</a>
           </motion.div>
           <motion.ul
             className="linksRedes"
@@ -100,17 +100,22 @@ export default function Home() {
               <a
                 href="https://www.linkedin.com/in/lautaro-aguilar-83a3a923b/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Linkedin
               </a>
             </li>
             <li>
-              <a href="https://www.behance.net/lautaroaguilar2" target="_blank">
+              <a href="https://www.behance.net/lautaroaguilar2" target="_blank"
+              rel="noreferrer"
+              >
                 Behance
               </a>
             </li>
             <li>
-              <a href="https://github.com/lautaroAguilar" target="_blank">
+              <a href="https://github.com/lautaroAguilar" target="_blank"
+              rel="noreferrer"
+              >
                 Github
               </a>
             </li>
