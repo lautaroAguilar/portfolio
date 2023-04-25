@@ -30,7 +30,7 @@ export const Slider = ({ slides }) => {
             <div className="content">
               <h5>{slide.title}</h5>
               <p>{slide.subtitle}</p>
-              <a href={slide.link} target="_blank">
+              <a href={slide.link} target="_blank" rel="noreferrer">
                 Ver más
               </a>
             </div>
