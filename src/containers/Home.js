@@ -84,7 +84,7 @@ export default function Home() {
             <div className="copys">
               <h2 className="Title">Hola, soy Lautaro</h2>
               <p>
-                Diseñador UX/UI y desarrollador web. Busco crear buenas
+                Diseñador UX/UI y desarrollador web frontend. Busco crear buenas
                 experiencias digitales para el usuario.
               </p>
             </div>
