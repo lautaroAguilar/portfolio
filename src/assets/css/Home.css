@@ -54,31 +54,25 @@
 .Header ul li {
   list-style: none;
   color: #fdfdfd;
-  transition: all 0.2s ease-in;
+  transition: all 0.1s ease-in;
 }
 
 .Header ul li:hover {
   cursor: pointer;
-  color: #8bd2e7;
-  transition: all 0.2s ease-in;
+  color: #97E6FF;
+  transition: all 0.1s ease-in;
 }
 
 .Header ul li a {
   color: #fdfdfd;
   text-decoration: none;
-  transition: all 0.2s ease-in;
+  transition: all 0.1s ease-in;
 }
 
 .Header ul li a:hover {
-  color: #8bd2e7;
+  color: #97E6FF;
   text-decoration: none;
-  transition: all 0.2s ease-in;
-}
-
-.Logo {
-  margin: 0;
-  padding: 1rem 0;
-  color: #fdfdfd;
+  transition: all 0.1s ease-in;
 }
 
 /* TEXTS */
@@ -92,7 +86,7 @@
 }
 
 .Title {
-  color: #8bd2e7;
+  color: #97E6FF;
   font-size: 48px;
   font-family: "Synkopy";
   letter-spacing: 2px;
@@ -121,14 +115,14 @@
   padding: 10px 20px;
   background-color: transparent;
   border: 1px solid #fdfdfd;
-  transition: all 0.2s ease-in;
+  transition: all 0.1s ease-in;
 }
 
 .CTA:hover {
-  border: 1px solid #8bd2e7;
+  border: 1px solid #97E6FF;
   cursor: pointer;
-  color: #8bd2e7;
-  transition: all 0.2s ease-in;
+  color: #97E6FF;
+  transition: all 0.1s ease-in;
 }
 
 /* Links Redes */
@@ -144,12 +138,12 @@
 .linksRedes li a {
   color: #fdfdfd;
   text-decoration: none;
-  transition: all 0.2s ease-in;
+  transition: all 0.1s ease-in;
 }
 
 .linksRedes li a:hover {
-  color: #8bd2e7;
-  transition: all 0.2s ease-in;
+  color: #97E6FF;
+  transition: all 0.1s ease-in;
 }
 
 @media (max-width: 768px) {
@@ -188,7 +182,7 @@
     position: absolute;
     top: 60px;
     right: 0;
-    background-color: #8bd2e7;
+    background-color: #97E6FF;
     height: calc(55vh - 60px);
     width: 0px;
     transition: all 0.3s ease-in;
@@ -210,7 +204,12 @@
   .nav-elements ul li {
     margin-right: unset;
     margin-top: 22px;
+    color: #0b0b0b;
   }
+
+  .nav-elements ul li a{
+    color: #0b0b0b;
+  } 
 
   .Box__texts {
     justify-content: space-between;
@@ -236,10 +235,10 @@
   }
 
   .Header ul li:hover {
-    cursor: pointer;
     color: #0b0b0b;
-    transition: all 0.2s ease-in;
+    
   }
+
   .Title {
     font-size: 2.3rem;
     min-width: 150px;

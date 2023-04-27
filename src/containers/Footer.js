@@ -22,7 +22,7 @@ export default function Footer() {
         y: 0,
         transition: {
           type: `spring`,
-          duration: 6,
+          duration: 4,
           bounce: 0.1,
         },
       });

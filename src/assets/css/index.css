@@ -4,6 +4,12 @@
 
 }
 
+@font-face {
+  font-family: "Synkopy";
+  src: url("../fonts/OTF/Synkopy-Flipside.otf");
+
+}
+
 .App{
   overflow-x: hidden;
 }

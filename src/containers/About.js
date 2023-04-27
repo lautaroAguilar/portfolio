@@ -26,7 +26,7 @@ export default function About() {
         x: 0,
         transition: {
           type: `spring`,
-          duration: 6,
+          duration: 6, 
           bounce: 0.1,
         },
       });
