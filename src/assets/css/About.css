@@ -74,7 +74,7 @@
 
 .someTech__logos--container svg:hover{
   color: #8bd2e7;
-  transition: all 0.3s ease-in;
+  transition: all 0.1s ease-in;
 }
 
 @media screen and (max-width: 480px) {

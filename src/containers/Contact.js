@@ -30,7 +30,7 @@ export default function Contact() {
         x: 0,
         transition: {
           type: `spring`,
-          duration: 6,
+          duration: 4,
           bounce: 0.1,
         },
       });
@@ -62,7 +62,7 @@ export default function Contact() {
           <div className="infoContacto">
             <div className="infoContacto__container">
               <div className="infoContacto--icon">
-                <a href="https://mail.google.com" target="_blank">
+                <a href="mailto:eley.aramis@gmail.com?subject=Contacto desde el portfolio de Lautaro&body=Escriba su mensaje aquí" target="_blank">
                   <SlEnvolope />
                 </a>
               </div>
@@ -72,7 +72,7 @@ export default function Contact() {
             </div>
             <div className="infoContacto__container">
               <div className="infoContacto--icon">
-                <a href="https://whatsapp.com" target="_blank">
+                <a href="https://api.whatsapp.com/send?phone=1122501319" target="_blank">
                   <SlPhone />
                 </a>
               </div>

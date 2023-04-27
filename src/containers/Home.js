@@ -3,6 +3,7 @@ import "../assets/css/Home.css";
 import { motion } from "framer-motion";
 import { AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-scroll";
+import logo from "../assets/media/logo.png"
 
 export default function Home() {
   const [showNav, setShowNav] = useState(false);
@@ -28,7 +29,7 @@ export default function Home() {
             transition={{ type: `spring`, duration: 6, bounce: 0.1 }}
           >
             <div className="hMb">
-              <h3 className="Logo"> Lautaro Aguilar </h3>
+              <img className="logo" src={logo} alt="logo de la aplicación" />
               <div className="menu-icon" onClick={handleShowNavbar}>
                 <AiOutlineMenu />
               </div>
