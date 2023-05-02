@@ -69,6 +69,8 @@
 
 .swiper-pagination span{
   background-color: #8bd2e7;
+  height: 1rem;
+  width: 1rem;
 }
 
 @media screen and (max-width: 480px) {
@@ -107,4 +109,6 @@
   .content {
     opacity: 1;
   }
+
+
 }
