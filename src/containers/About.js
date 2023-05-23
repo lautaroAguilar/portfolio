@@ -26,7 +26,7 @@ export default function About() {
         x: 0,
         transition: {
           type: `spring`,
-          duration: 6, 
+          duration: 6,
           bounce: 0.1,
         },
       });
@@ -106,19 +106,17 @@ export default function About() {
           </motion.div>
           <motion.div className="info__texts" animate={animationToTheLeft}>
             <p>
-              Argentino, criado en Buenos Aires. Desde chico tuve curiosidad por
-              el diseño y la creación en general. Pero cuando conocí el mundo
-              web y digital, mi perspectiva cambió.
+              Me llamo Lautaro, tengo 21 años y vivo en Quilmes, Buenos Aires.
+              Me gusta el diseño y crear cosas.
             </p>
             <p>
-              Desde ese momento me enfoqué en dominar la mayor cantidad de
-              herramientas digitales, y así poder crear soluciones y
-              experiencias de calidad.
+              En el último año me dediqué a aprender tencnologías y herramientas
+              para poder desarrollar mis ideas.
             </p>
             <p>
-              Será un largo trayecto, eso lo tengo claro. Pero cuando uno se
-              propone un objetivo y traza un plan para lograrlo, puede
-              cumplirlo. Y voy por buen camino.
+              Hoy me encuentro buscando mi primera experiencia laboral,
+              con intenciones de seguir aprendiendo y mejorar en
+              este camino. 
             </p>
           </motion.div>
         </div>
